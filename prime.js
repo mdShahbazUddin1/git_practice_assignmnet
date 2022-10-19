@@ -1,14 +1,15 @@
+let count=0;
+let num=7;
+for (i=1; i<=num; i++){
+    if(num%i==0){
+        count++;
+    }
 
-
-let count = 0;
-for (let i = 1; i <= num; i++) {
-  if (num % i == 0) {
-    count++;
-  }
-}
-
-if (count == 1) {
-  console.log("Yes");
-} else {
-  console.log("No");
-}
+    }
+    if(count==2){
+        console.log("Yes")
+    }else{
+        console.log("No");
+    }
+    
+    
